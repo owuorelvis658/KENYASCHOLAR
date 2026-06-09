@@ -26,8 +26,9 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         .ks-logo-icon { width:34px;height:34px;background:linear-gradient(135deg,#1a56db 0%,#1244b8 100%);border-radius:9px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(26,86,219,0.28);flex-shrink:0; }
         .ks-logo-text { font-size:18px;font-weight:800;color:#0f172a;letter-spacing:-0.35px;line-height:1; }
         .ks-logo-text span { color:#1a56db; }
-        .ks-links { display:flex;align-items:center;gap:2px;list-style:none;margin-left:auto;margin-right:12px; }
+        .ks-links { display:flex;align-items:center;gap:2px;list-style:none; }
         .ks-link-item { position:relative;display:flex;flex-direction:column;align-items:center; }
+        .ks-link-item:first-child { margin-left:auto;margin-right:16px; }
         .ks-link { display:flex;align-items:center;padding:6px 11px;font-size:13.5px;font-weight:500;color:#475569;text-decoration:none;border-radius:7px;transition:color 0.15s ease,background 0.15s ease;white-space:nowrap;letter-spacing:-0.1px;cursor:pointer;border:none;background:transparent;font-family:inherit; }
         .ks-link:hover { color:#1a56db;background:#eff6ff; }
         .ks-link.active { color:#1a56db;font-weight:600; }
