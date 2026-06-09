@@ -26,13 +26,13 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         .ks-logo-icon { width:34px;height:34px;background:linear-gradient(135deg,#1a56db 0%,#1244b8 100%);border-radius:9px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(26,86,219,0.28);flex-shrink:0; }
         .ks-logo-text { font-size:18px;font-weight:800;color:#0f172a;letter-spacing:-0.35px;line-height:1; }
         .ks-logo-text span { color:#1a56db; }
-        .ks-links { display:flex;align-items:center;gap:2px;list-style:none; }
+        .ks-links { display:flex;align-items:center;gap:2px;list-style:none;margin-left:auto;margin-right:12px; }
         .ks-link-item { position:relative;display:flex;flex-direction:column;align-items:center; }
         .ks-link { display:flex;align-items:center;padding:6px 11px;font-size:13.5px;font-weight:500;color:#475569;text-decoration:none;border-radius:7px;transition:color 0.15s ease,background 0.15s ease;white-space:nowrap;letter-spacing:-0.1px;cursor:pointer;border:none;background:transparent;font-family:inherit; }
         .ks-link:hover { color:#1a56db;background:#eff6ff; }
         .ks-link.active { color:#1a56db;font-weight:600; }
-        .ks-link-underline { display:none;position:absolute;bottom:-20px;left:6px;right:6px;height:2.5px;background:#1a56db;border-radius:2px 2px 0 0; }
-        .ks-auth-btns { display:flex;align-items:center;gap:8px;margin-left:auto; }
+        .ks-link-underline { display:block;position:absolute;bottom:-22px;left:6px;right:6px;height:3px;background:#1a56db;border-radius:2px 2px 0 0; }
+        .ks-auth-btns { display:flex;align-items:center;gap:8px; }
         .ks-hamburger { display:none;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid #e2e8f0;border-radius:9px;background:transparent;cursor:pointer;color:#334155;margin-left:16px;transition:background 0.15s,color 0.15s;flex-shrink:0; }
         .ks-hamburger:hover { background:#f1f5f9;color:#1a56db; }
         .ks-mobile-overlay { position:fixed;inset:0;background:rgba(15,23,42,0.35);z-index:998;cursor:pointer; }
